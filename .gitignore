@@ -1,0 +1,29 @@
+# Simulation outputs
+sim/*.vvp
+sim/*.vcd
+sim/*.lxt
+
+# Vivado project files
+*.xpr
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+
+# PetaLinux build
+petalinux-build/
+build/
+images/
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Kiro internal
+.kiro/
